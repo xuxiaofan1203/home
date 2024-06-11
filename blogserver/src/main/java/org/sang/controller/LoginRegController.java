@@ -19,12 +19,12 @@ public class LoginRegController {
 
     @RequestMapping("/login_error")
     public RespBean loginError() {
-        return new RespBean("error", "登录失败!");
+        return new RespBean("error", "....登录失败!");
     }
 
     @RequestMapping("/login_success")
     public RespBean loginSuccess() {
-        return new RespBean("success", "登录成功!");
+        return new RespBean("success", "....登录成功!");
     }
 
     /**
